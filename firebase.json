@@ -4,7 +4,7 @@
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "headers": [
       {
-        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|js|css)",
+        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|js|css|ttf)",
         "headers": [
           {
             "key": "Cache-Control",
