@@ -73,7 +73,15 @@
             <li><a href="about.html">About us</a></li>
             <li><a href="index.html#best-sellers-section">Best Sellers</a></li>
             <li><a href="index.html#newsletter-section">Newsletter</a></li>
-            <li class="menu-icon"><img src="images/menu_icon.webp" alt="menu_icon" /></li>
+            <li class="menu-icon">
+              <img
+                src="images/menu_icon.webp"
+                alt="menu_icon"
+                class="menu-icon"
+                width="24"
+                height="18"
+              />
+            </li>
           </ul>
         </nav>
       </div>
@@ -117,7 +125,21 @@
         <div class="container">
           <div class="product new">
             <div class="product-picture">
-              <img src="images/vr1.webp" alt="product: Penom Case" />
+              <picture>
+                <source
+                  width="90"
+                  height="90"
+                  media="(max-width: 575px)"
+                  srcset="images/vr1_Mobile.webp"
+                />
+                <source
+                  width="120"
+                  height="120"
+                  media="(min-width: 576px) and (max-width: 960px)"
+                  srcset="images/vr1_Tablet.webp"
+                />
+                <img width="150" height="150" src="images/vr1_Desktop.webp" alt="hero" />
+              </picture>
             </div>
             <div class="product-info">
               <h5 class="categories">Headsets, Apple</h5>
@@ -131,7 +153,21 @@
 
           <div class="product new">
             <div class="product-picture">
-              <img src="images/vr2.webp" alt="product: Noise Cancelling Headphone" />
+              <picture>
+                <source
+                  width="90"
+                  height="90"
+                  media="(max-width: 575px)"
+                  srcset="images/vr2_Mobile.webp"
+                />
+                <source
+                  width="120"
+                  height="120"
+                  media="(min-width: 576px) and (max-width: 960px)"
+                  srcset="images/vr2_Tablet.webp"
+                />
+                <img width="150" height="150" src="images/vr2_Desktop.webp" alt="hero" />
+              </picture>
             </div>
             <div class="product-info">
               <h5 class="categories">Headsets, PS</h5>
@@ -145,7 +181,21 @@
 
           <div class="product">
             <div class="product-picture">
-              <img src="images/vr3.webp" alt="product: Canon Digital SLR EOS Rebel T6" />
+              <picture>
+                <source
+                  width="90"
+                  height="90"
+                  media="(max-width: 575px)"
+                  srcset="images/vr3_Mobile.webp"
+                />
+                <source
+                  width="120"
+                  height="120"
+                  media="(min-width: 576px) and (max-width: 960px)"
+                  srcset="images/vr3_Tablet.webp"
+                />
+                <img width="150" height="150" src="images/vr3_Desktop.webp" alt="hero" />
+              </picture>
             </div>
             <div class="product-info">
               <h5 class="categories">Headsets, Oculus</h5>

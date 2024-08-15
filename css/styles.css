@@ -721,3 +721,8 @@ footer .copyright-text {
   }
 }
 /* End of Design for Mobile Phones */
+
+/* Custom Css */
+section.best-sellers .product-slider .product picture > img {
+  max-width: 100%;
+}
